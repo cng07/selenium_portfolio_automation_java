@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Portfolio Automation Suite" parallel="false">
+    <test name="Home Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.HomeTest"/>
+        </classes>
+    </test>
+
+    <test name="About Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.AboutTest"/>
+        </classes>
+    </test>
+
+    <test name="Projects Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.ProjectsTest"/>
+        </classes>
+    </test>
+
+    <test name="Resume Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.ResumeTest"/>
+        </classes>
+    </test>
+
+    <test name="Contact Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.ContactTest"/>
+        </classes>
+    </test>
+
+    <test name="Experience Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.ExperienceTest"/>
+        </classes>
+    </test>
+
+    <test name="Education Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.EducationTest"/>
+        </classes>
+    </test>
+
+    <test name="Certifications Page Tests">
+        <classes>
+            <class name="com.portfolio.tests.CertificationsTest"/>
+        </classes>
+    </test>
+</suite>
